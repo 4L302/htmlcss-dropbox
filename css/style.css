@@ -1,20 +1,62 @@
 /*general*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+/*color styles*/
+:root {
+    --lightcolor: #FFFFFF;
+    --darkcolor: #000000;
+    --lightblue: #B4D0E7;
+    --bg-btn: #0061FF;
+    --lightgrey: #F5F5F5;
+    --greenlogo: #A2D39B;
+    --lightbluelogo: #0093CE;
+    --red-logo: #FF1C1C;
+    --cherry-logo: #D5001F;
+    --blue-logo: #0D2481;
+    --banana-logo: #FFD830;
+}
+
+html {
     scroll-behavior: smooth;
 }
-body{
-    background-color: white;
+
+body {
+    background-color: var(--lightcolor);
 }
-.container{
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
 }
-.container-small{
+
+.container-small {
     max-width: 1000px;
     margin: 0 auto;
+}
+
+.debug {
+    border: 1px solid red;
+}
+
+/*header*/
+header {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid var(--lightgrey);
+}
+
+/*main*/
+main {
+    padding-top: 80px;
+}
+
+#hero {
+    background-color: var(--lightblue);
 }
