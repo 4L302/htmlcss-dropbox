@@ -27,6 +27,7 @@ html {
 
 body {
     background-color: var(--lightcolor);
+    font-family: 'Open Sans', sans-serif;
 }
 
 ul {
@@ -36,11 +37,13 @@ ul {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .container-small {
     max-width: 1000px;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .debug {
@@ -51,6 +54,35 @@ ul {
     background-color: var(--lightblue);
 }
 
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
 /*header*/
 header {
     position: fixed;
@@ -59,6 +91,12 @@ header {
     top: 0;
     z-index: 1000;
     border-bottom: 2px solid var(--lightgrey);
+    background-color: var(--lightcolor);
+}
+
+header li {
+    margin-left: 50px;
+    
 }
 
 /*main*/
@@ -70,6 +108,9 @@ main {
     color: var(--purplecolor);
 }
 
+main img{
+    width: 100%;
+}
 /*footer*/
 footer {
     color: var(--lightgrey);
