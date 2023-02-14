@@ -71,6 +71,10 @@ ul {
     justify-content: space-between;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
 .align-center {
     align-items: center;
 }
@@ -81,6 +85,17 @@ h1 {
 
 h2 {
     font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--darkcolor);
+}
+
+.btn {
+    background-color: var(--bg-btn);
+    color: var(--lightcolor);
+    padding: 5px 10px;
 }
 
 /*header*/
@@ -96,7 +111,11 @@ header {
 
 header li {
     margin-left: 50px;
-    
+}
+
+nav {
+    margin-top: 30px;
+    margin-left: 100px;
 }
 
 /*main*/
@@ -108,9 +127,10 @@ main {
     color: var(--purplecolor);
 }
 
-main img{
+main img {
     width: 100%;
 }
+
 /*footer*/
 footer {
     color: var(--lightgrey);
