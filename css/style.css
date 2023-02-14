@@ -58,6 +58,10 @@ ul {
     margin-bottom: 100px;
 }
 
+.mb-30{
+    margin-bottom: 30px;
+}
+
 .d-flex {
     display: flex;
     flex-direction: row;
@@ -81,6 +85,7 @@ ul {
 
 h1 {
     font-size: 5rem;
+    line-height: 80px;
 }
 
 h2 {
@@ -96,6 +101,12 @@ a {
     background-color: var(--bg-btn);
     color: var(--lightcolor);
     padding: 5px 10px;
+}
+#hero .right {
+    width: 30%;
+}
+#hero .left{
+    width: 70%;
 }
 
 /*header*/
@@ -127,8 +138,9 @@ main {
     color: var(--purplecolor);
 }
 
-main img {
-    width: 100%;
+
+#hero{
+    
 }
 
 /*footer*/
