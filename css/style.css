@@ -82,7 +82,9 @@ ul {
 .align-center {
     align-items: center;
 }
-
+.align-start{
+    align-items: flex-start;
+}
 h1 {
     font-size: 5rem;
     line-height: 80px;
@@ -104,6 +106,8 @@ a {
 }
 #hero .right {
     width: 30%;
+    height: calc(100% / 3);
+    
 }
 #hero .left{
     width: 70%;
