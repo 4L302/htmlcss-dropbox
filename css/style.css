@@ -62,6 +62,9 @@ ul {
     margin-bottom: 30px;
 }
 
+.mb-50{
+    margin-bottom: 50px;
+}
 .mtop-50{
     margin-top: 50px;
 }
@@ -125,7 +128,7 @@ hr{
     color: var(--lightgrey);
 }
 
-a {
+nav a, .btn {
     text-decoration: none;
     color: var(--darkcolor);
 }
@@ -174,6 +177,9 @@ main {
 }
 
 /*sezione clienti*/
+#link{
+    text-decoration: ;
+}
 .box{
     width: calc(100% / 3);
 }
