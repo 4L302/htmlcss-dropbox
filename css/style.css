@@ -77,6 +77,15 @@ ul {
     justify-content: flex-end;
 }
 
+.flex-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-row{
+    flex-direction: row;
+}
 .wrap {
     flex-wrap: wrap;
 }
@@ -152,6 +161,44 @@ main {
     color: var(--purplecolor);
 }
 
+/*sezione clienti*/
+.box{
+    width: calc(100% / 3);
+}
+
+.box-cl{
+    width: calc(100% / 2);
+    height: 300px;
+}
+
+#loghi{
+    width: 150px;     
+}
+
+#box1{
+    background-color: var(--greenlogo);
+}
+#box2{
+    background-color: var(--purplecolor);
+}
+#box3{
+    background-color: var(--lightbluelogo);
+}
+#box4{
+    background-color: var(--red-logo);
+}
+#box5{
+    background-color: var(--cherry-logo);
+}
+#box6{
+    background-color: var(--lightblue);
+}
+#box7{
+    background-color: var(--blue-logo)
+}
+#box8{
+    background-color: var(--banana-logo);
+}
 /*footer*/
 footer {
     color: var(--lightgrey);
