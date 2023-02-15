@@ -80,6 +80,10 @@ ul {
     justify-content: flex-end;
 }
 
+.p-top{
+    padding: 50px 0;
+}
+
 .start-flex{
     display: flex;
     flex-direction: column;
@@ -128,7 +132,7 @@ hr{
     color: var(--lightgrey);
 }
 
-nav a, .btn {
+nav a, .btn, .btn-light{
     text-decoration: none;
     color: var(--darkcolor);
 }
@@ -139,12 +143,21 @@ nav a, .btn {
     color: var(--lightcolor);
     padding: 5px 10px;
 }
+.btn-light {
+        background-color: var(--lightgrey);
+        color: var(--darkcolor);
+        padding: 5px 10px;
+}
 #hero .right {
     width: auto;
     
 }
 #hero .left{
     width: 70%;
+}
+
+.p-left{
+    width: 50%;
 }
 
 /*header*/
