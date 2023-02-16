@@ -58,48 +58,52 @@ ul {
     margin-bottom: 100px;
 }
 
-.mb-30{
+.mb-30 {
     margin-bottom: 30px;
 }
 
-.mb-50{
+.mb-50 {
     margin-bottom: 50px;
 }
-.mtop-50{
+
+.mtop-50 {
     margin-top: 50px;
 }
+
+
 .d-flex {
     display: flex;
     flex-direction: row;
 }
 
-.c-flex{
+.c-flex {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
 }
 
-.p-top{
+.p-top {
     padding: 50px 0;
 }
 
-.start-flex{
+.start-flex {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
 }
 
-.flex-center{
+.flex-center {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.flex-row{
+.flex-row {
     flex-direction: row;
 }
+
 .wrap {
     flex-wrap: wrap;
 }
@@ -115,9 +119,11 @@ ul {
 .align-center {
     align-items: center;
 }
-.align-start{
+
+.align-start {
     align-items: flex-start;
 }
+
 h1 {
     font-size: 5rem;
     line-height: 80px;
@@ -127,12 +133,15 @@ h2 {
     font-size: 2rem;
 }
 
-hr{
+footer hr {
     width: 100px;
     color: var(--lightgrey);
 }
 
-nav a, .btn, .btn-light{
+nav a,
+.btn,
+.btn-light,
+.btn-wt {
     text-decoration: none;
     color: var(--darkcolor);
 }
@@ -143,20 +152,23 @@ nav a, .btn, .btn-light{
     color: var(--lightcolor);
     padding: 5px 10px;
 }
+
 .btn-light {
-        background-color: var(--lightgrey);
-        color: var(--darkcolor);
-        padding: 5px 10px;
+    background-color: var(--lightgrey);
+    color: var(--darkcolor);
+    padding: 5px 10px;
 }
+
 #hero .right {
     width: auto;
-    
+
 }
-#hero .left{
+
+#hero .left {
     width: 70%;
 }
 
-.p-left{
+.p-left {
     width: 50%;
 }
 
@@ -188,57 +200,83 @@ main {
 #start-trial h2 {
     color: var(--purplecolor);
 }
+
+/*partner*/
+#partnerimg {
+    width: 600px;
+}
+
+.boxtext {
+    padding: 20px;
+}
+
+.btn-wt {
+    padding: 5px 10px;
+    border: 1px solid var(--darkcolor);
+}
+
 /*features*/
-#features img{
+#features img {
     width: 300px;
 }
-/*sezione clienti*/
-.box{
+
+/*clienti*/
+.box {
     width: calc(100% / 3);
 }
 
-.box-cl{
+.box-cl {
     width: calc(100% / 2);
     height: 300px;
 }
-.box-cl-info{
+
+.box-cl-info {
     width: calc(100% / 3);
     height: 200px;
 }
-#loghi{
+
+#loghi {
     width: 150px;
-    filter: invert(100%);    
+    filter: invert(100%);
 }
 
-.info-cl{
+.info-cl {
     padding: 0px 50px;
     margin: 0 auto;
 }
 
-#box1{
+#box1 {
     background-color: var(--greenlogo);
 }
-#box2{
+
+#box2 {
     background-color: var(--purplecolor);
 }
-#box3{
+
+#box3 {
     background-color: var(--lightbluelogo);
 }
-#box4{
+
+#box4 {
     background-color: var(--red-logo);
 }
-#box5{
+
+#box5 {
     background-color: var(--cherry-logo);
 }
-#box6{
+
+#box6 {
     background-color: var(--lightblue);
 }
-#box7{
+
+#box7 {
     background-color: var(--blue-logo)
 }
-#box8{
+
+#box8 {
     background-color: var(--banana-logo);
 }
+
 /*footer*/
 footer {
     color: var(--lightgrey);
@@ -246,8 +284,7 @@ footer {
     line-height: 30px;
 }
 
-#wt{
+#wt {
     color: var(--lightgrey);
     font-size: 1em;
 }
-
