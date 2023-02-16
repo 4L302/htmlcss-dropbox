@@ -138,6 +138,7 @@ footer hr {
     color: var(--lightgrey);
 }
 
+
 nav a,
 .btn,
 .btn-light,
@@ -277,6 +278,9 @@ main {
     background-color: var(--banana-logo);
 }
 
+.cust-hr{
+    width: 100px;
+}
 /*footer*/
 footer {
     color: var(--lightgrey);
